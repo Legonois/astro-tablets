@@ -4,3 +4,5 @@ generated/
 
 skyfield-data/*
 !skyfield-data/.gitkeep
+
+__pycache__/
