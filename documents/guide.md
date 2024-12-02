@@ -69,10 +69,11 @@ Installation
 ### Using Dev Container
 
 1. Install *Docker* and *VS Code*.
-2. Open the project in the dev container.
-3. Run `source venv/bin/activate`.
-4. Run `pip install -r requirements.txt`.
-5. Run `python ./src/main.py --help`.
+2. Open the project in the dev container using the Dev Container extension.
+3. Run `python -m venv ./venv`. (This will create a virtual environment to install the dependencies)
+4. Run `source venv/bin/activate`. (This will activate the virtual environment)
+5. Run `pip install -r requirements.txt`. (This will install the dependencies)
+6. Run `python ./src/main.py --help`.
 
 The Generate Stage
 ------------------
