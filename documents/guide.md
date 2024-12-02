@@ -66,6 +66,14 @@ Installation
 3.  Run `venv/bin/activate` (or equivalent)
 4.  Run `python ./src/main.py --help`.
 
+### Using Dev Container
+
+1. Install *Docker* and *VS Code*.
+2. Open the project in the dev container.
+3. Run `source venv/bin/activate`.
+4. Run `pip install -r requirements.txt`.
+5. Run `python ./src/main.py --help`.
+
 The Generate Stage
 ------------------
 
